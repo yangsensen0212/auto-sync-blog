@@ -144,7 +144,7 @@ http://localhost:8080/
         <a href="https://github.com/yangsensen0212">
             <img src="https://avatars.githubusercontent.com/u/83394750?v=4" width="100;" alt="yangsensen0212"/>
             <br />
-            <sub><b>yangsensen0212</b></sub>
+            <sub><b>Yangsensen0212</b></sub>
         </a>
     </td>
     <td align="center">
