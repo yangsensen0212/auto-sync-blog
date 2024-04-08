@@ -18,6 +18,7 @@ async function run(juejin_user_id, juejin_column_id, baidu_count_url) {
     })();`;var juejinBody = {
         juejin_user_id,
         juejin_column_list: [juejin_column_id],
+        
         baidu_count_url,
     }
     // console.log("global：", global);
