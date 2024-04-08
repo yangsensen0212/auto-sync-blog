@@ -4,11 +4,11 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - master
+      - main
 
-  # 每天下午四点执行（也就是16点，需要-8小时，所以是8）
-  schedule:
-    - cron: "0 8 * * *"
+  # # 每天下午四点执行（也就是16点，需要-8小时，所以是8）
+  # schedule:
+  #   - cron: "0 8 * * *"
 
 jobs:
   blog-catch-and-pages:
@@ -25,7 +25,7 @@ jobs:
       - name: Install and run
         run: npm install
         
-      - run: node main.js --juejin_user_id=${{ secrets.JUEJIN_USER_ID }} --juejin_column_id=${{ secrets.JUEJIN_COLUMN_ID }}
+      # - run: node main.js --juejin_user_id=${{ secrets.JUEJIN_USER_ID }} --juejin_column_id=${{ secrets.JUEJIN_COLUMN_ID }}
 
       - name: Build
         run: |
